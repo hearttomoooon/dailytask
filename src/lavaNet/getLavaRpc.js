@@ -14,7 +14,7 @@ const agent = new HttpsProxyAgent(config.proxy);
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 // 这里定义了邀请码，请自行更换成自己的邀请码
-const inviteCode = 'LEAP1';
+const inviteCode = 'WQ4MC';
 const provider = new Web3.providers.HttpProvider(config.ethrpc);
 const web3 = new Web3(provider);
 
